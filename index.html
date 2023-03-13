@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Signin page</title>
+	<style>
+	.parent 
+		{
+		 display:flex;
+		 width:1000;
+		 height:auto;
+		 border:solid 2px pink;
+		 margin:0 auto;
+	     background-image:linear-gradient( to left,#9799ba,#ffdae0);
+		 color:#C71585;
+		 }
+		 
+		  h3 
+		  {
+		  
+		  color:#C71595;
+		  text-align:center;
+		  font-size:34px;
+		  }
+		  form
+		  {
+		  width:500px;
+		  height:auto;
+		  border:dotted 2px black;
+		  margin-top:25px;
+		  margin-left:16px;
+		  }
+		  img 
+		  {
+		   display:block;
+		   margin:20px;
+		   border-radius:20px;
+		   }
+		   label,input{
+		   
+		   font-size:30px;
+		   margin:10px;
+		   }
+		   button 
+		   {
+		    font-size:30px;
+			padding:10px;
+			margin-left:167px;
+			background-color:pink;
+			border:dotted 2px black;
+		    color:#C71585;
+			}
+		  
+	</style>
+</head>
+<body>
+    <div class="parent">
+	   <div class="imgsc">
+	      <img src="image/imgf.jpg" width="400" height="500" style="margin-top:40px">
+         
+
+
+	  </div>
+		<div class="frm">
+		<form>
+		     <h3>SIGNIN FORM</h3>
+			 <label for="name">Name</label><br>
+			 <input type="text" id="name" ><br>
+			 <label for="mail">Email</label><br>
+			 <input type="email" id="mail" ><br>
+			 <label for="number">Phonenumber</label><br>
+			 <input type="tel" id="number" ><br>
+			 <label for="password">Password</label><br>
+			  <input type="password" id="pswd">
+			  <label for="pswd1">ConfirmPassword</label><br>
+			  <input type="password" id="pswd1">
+			  <button>Signin</button>
+			  <div id="result"></div>
+			 
+		</form>
+		</div>
+	</div>
+	
+
+   <script src="sigin.js">
+   </script>
+</body>
+
+</html>
